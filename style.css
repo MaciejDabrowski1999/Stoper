@@ -77,7 +77,7 @@ button {
 	width: 20%;
 	color: #fff;
 	font-size: 22px;
-	background-color: var(--first-color);
+	background-color: transparent;
 	border-radius: 5px;
 	cursor: pointer;
 	transition: background-color 0.3s;
@@ -85,7 +85,7 @@ button {
 
 button:hover,
 button:focus {
-	background-color: var(--first-color);
+	background-color: var(--second-color);
 	outline: none;
 }
 
